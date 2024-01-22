@@ -20,7 +20,7 @@
 				      <td>@{{ project.name }}</td>
 				      <td>@{{ project.description }}</td>
 				      <td>
-				      	<a class="btn btn-warning" href="projects/@{{ project.id }}"><i class="fa fa-search"></i></a>
+				      	<a class="btn btn-warning" href="projects/@{{ project.id }}"><i class="fa fa-eye"></i></a>
 				      	<a class="btn btn-info" href="projects/@{{ project.id }}/edit"><i class="fa fa-pencil"></i></a>
 				      	<a class="btn btn-danger" href="#" ng-click="itemToBeDeleted(project.id)" data-toggle="modal" data-target="#delete-modal"><i class="fa fa-trash"></i></a>
 				      </td>
